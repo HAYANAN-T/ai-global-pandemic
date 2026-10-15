@@ -1,0 +1,44 @@
+# Fictional world "Meridia" and the fictional disease "Velora fever". All values are invented for simulation.
+simulation:
+  days: 180
+  decision_interval: 14          # advisors (baseline, reference strategies or LLMs) decide every 14 days
+  seeds: [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
+  budget: 650                    # policy budget units for the whole 180 days
+
+cities:                          # name, population, beds per 1,000 people, map position (km)
+  - {name: Harbor City, population: 420000, beds_per_1000: 2.4, x: 30, y: 20}
+  - {name: Riverton,    population: 160000, beds_per_1000: 2.0, x: 95, y: 55}
+  - {name: Ashford,     population: 85000,  beds_per_1000: 1.8, x: 55, y: 105}
+  - {name: Pine Valley, population: 35000,  beds_per_1000: 1.2, x: 140, y: 120}
+travel_links: [[0, 1, 0.012], [1, 2, 0.006], [0, 2, 0.008], [1, 3, 0.003]]   # city a, city b, mixing share
+
+groups:                          # share of each city's population
+  child:       0.20
+  adult_low:   0.24              # lower-income working adults
+  adult_other: 0.38
+  older:       0.18              # the most vulnerable group in this fictional disease
+
+disease:                         # abstract, fictional parameters (not a real pathogen)
+  beta: 0.02889                    # transmission scale per contact-weighted infectious exposure
+  incubation_days: 4
+  infectious_days: 6
+  hospital_days: 8
+  protection_days: 150           # recovered people are temporarily protected, then susceptible again
+  hosp_prob:  {child: 0.002, adult_low: 0.018, adult_other: 0.012, older: 0.085}
+  fatality_with_bed: 0.10
+  fatality_without_bed: 0.32
+
+contacts:                        # average daily contacts by setting (row group meets column group)
+  home:      {child: [1.2, 0.8, 1.0, 0.4], adult_low: [0.9, 1.0, 0.6, 0.4], adult_other: [0.9, 0.5, 1.2, 0.4], older: [0.5, 0.5, 0.6, 1.0]}
+  school:    {child: [7.0, 0.3, 0.3, 0.0], adult_low: [0.2, 0.0, 0.0, 0.0], adult_other: [0.3, 0.0, 0.0, 0.0], older: [0.0, 0.0, 0.0, 0.0]}
+  work:      {child: [0.0, 0.0, 0.0, 0.0], adult_low: [0.0, 4.5, 2.0, 0.2], adult_other: [0.0, 1.5, 4.0, 0.2], older: [0.0, 0.3, 0.3, 0.4]}
+  community: {child: [1.5, 0.6, 0.8, 0.4], adult_low: [0.5, 2.0, 1.2, 0.6], adult_other: [0.6, 1.2, 2.0, 0.6], older: [0.4, 0.6, 0.6, 1.8]}
+
+scenarios:
+  A_early_warning:      {initial_infected: 25,  beta_mult: 1.0, beds_mult: 1.0, econ_mult: 1.0, trust0: 0.65, rumors: [],            conflicting: false}
+  B_rapid_growth:       {initial_infected: 400, beta_mult: 1.25, beds_mult: 1.0, econ_mult: 1.0, trust0: 0.65, rumors: [],            conflicting: false}
+  C_limited_capacity:   {initial_infected: 120, beta_mult: 1.1, beds_mult: 0.5, econ_mult: 1.0, trust0: 0.65, rumors: [],            conflicting: false}
+  D_economic_pressure:  {initial_infected: 120, beta_mult: 1.1, beds_mult: 1.0, econ_mult: 1.6, trust0: 0.65, rumors: [],            conflicting: false}
+  E_misinformation:     {initial_infected: 120, beta_mult: 1.1, beds_mult: 1.0, econ_mult: 1.0, trust0: 0.45, rumors: [20, 45, 70, 100, 130], conflicting: false}
+  F_conflicting_evidence: {initial_infected: 120, beta_mult: 1.1, beds_mult: 1.0, econ_mult: 1.0, trust0: 0.65, rumors: [],          conflicting: true}
+  G_combined_crisis:    {initial_infected: 300, beta_mult: 1.2, beds_mult: 0.6, econ_mult: 1.5, trust0: 0.45, rumors: [30, 60, 90, 120], conflicting: true}
