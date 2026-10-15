@@ -1,0 +1,1266 @@
+{
+ "table": {
+  "A_early_warning": {
+   "Baseline (neutral rule)": {
+    "deaths": 1047.65,
+    "attack_rate": 0.7835717857142858,
+    "overload_days_any_city": 44.6,
+    "peak_occupancy_pct": 98.63755745239659,
+    "economic_activity_retained": 0.9527699088581668,
+    "income_loss_low": 0.06612212759856631,
+    "trust_end": 0.8116242340092175,
+    "older_to_adult_death_ratio": 3.4590331224375745,
+    "rejected_actions": 0.0,
+    "expenditure": 140.75999999999993
+   },
+   "Do nothing": {
+    "deaths": 1593.95,
+    "attack_rate": 0.9417947857142858,
+    "overload_days_any_city": 72.8,
+    "peak_occupancy_pct": 126.68089297439266,
+    "economic_activity_retained": 0.9597341222478237,
+    "income_loss_low": 0.05637222885304662,
+    "trust_end": 0.36266120717310524,
+    "older_to_adult_death_ratio": 3.886416938795395,
+    "rejected_actions": 0.0,
+    "expenditure": 0.0
+   },
+   "Early proportionate": {
+    "deaths": 137.4,
+    "attack_rate": 0.29369285714285714,
+    "overload_days_any_city": 0.7,
+    "peak_occupancy_pct": 39.04793171372292,
+    "economic_activity_retained": 0.9622625277777777,
+    "income_loss_low": 0.032071607240143366,
+    "trust_end": 0.930462603553066,
+    "older_to_adult_death_ratio": 2.0827288151963197,
+    "rejected_actions": 17.3,
+    "expenditure": 648.8999999999999
+   },
+   "Strict lockdown": {
+    "deaths": 681.5,
+    "attack_rate": 0.6977491428571427,
+    "overload_days_any_city": 30.85,
+    "peak_occupancy_pct": 100.72554169402495,
+    "economic_activity_retained": 0.927558672939068,
+    "income_loss_low": 0.10141785788530466,
+    "trust_end": 0.7166797277119665,
+    "older_to_adult_death_ratio": 3.1722978595711027,
+    "rejected_actions": 0.0,
+    "expenditure": 172.3
+   },
+   "Economy first": {
+    "deaths": 1401.45,
+    "attack_rate": 0.9416554285714284,
+    "overload_days_any_city": 66.45,
+    "peak_occupancy_pct": 108.78444103985798,
+    "economic_activity_retained": 0.9615011451612905,
+    "income_loss_low": 0.05389839677419357,
+    "trust_end": 0.8017516499781928,
+    "older_to_adult_death_ratio": 3.931708163184028,
+    "rejected_actions": 0.0,
+    "expenditure": 167.78000000000003
+   }
+  },
+  "B_rapid_growth": {
+   "Baseline (neutral rule)": {
+    "deaths": 1789.7,
+    "attack_rate": 0.9756680714285713,
+    "overload_days_any_city": 48.8,
+    "peak_occupancy_pct": 152.57386736703876,
+    "economic_activity_retained": 0.9429193801843319,
+    "income_loss_low": 0.07991286774193548,
+    "trust_end": 0.7887997382967245,
+    "older_to_adult_death_ratio": 4.034866702725844,
+    "rejected_actions": 0.0,
+    "expenditure": 144.69999999999996
+   },
+   "Do nothing": {
+    "deaths": 2377.05,
+    "attack_rate": 1.0658485714285713,
+    "overload_days_any_city": 52.9,
+    "peak_occupancy_pct": 184.3860801050558,
+    "economic_activity_retained": 0.9628741219918074,
+    "income_loss_low": 0.05197622921146955,
+    "trust_end": 0.44810628319503654,
+    "older_to_adult_death_ratio": 4.4320882279877045,
+    "rejected_actions": 0.0,
+    "expenditure": 0.0
+   },
+   "Early proportionate": {
+    "deaths": 1513.5,
+    "attack_rate": 1.0001195000000003,
+    "overload_days_any_city": 49.3,
+    "peak_occupancy_pct": 131.17202889034797,
+    "economic_activity_retained": 0.9133791537378393,
+    "income_loss_low": 0.0794812247670251,
+    "trust_end": 0.7424742106959448,
+    "older_to_adult_death_ratio": 3.808601315900794,
+    "rejected_actions": 39.2,
+    "expenditure": 648.8999999999999
+   },
+   "Strict lockdown": {
+    "deaths": 1768.6,
+    "attack_rate": 1.008547642857143,
+    "overload_days_any_city": 56.95,
+    "peak_occupancy_pct": 135.11162179908075,
+    "economic_activity_retained": 0.9121012201740912,
+    "income_loss_low": 0.1230582917562724,
+    "trust_end": 0.6219147642854558,
+    "older_to_adult_death_ratio": 4.170229201255785,
+    "rejected_actions": 0.0,
+    "expenditure": 172.3
+   },
+   "Economy first": {
+    "deaths": 2002.3,
+    "attack_rate": 1.0662195,
+    "overload_days_any_city": 47.7,
+    "peak_occupancy_pct": 148.9494418910046,
+    "economic_activity_retained": 0.9643224827188941,
+    "income_loss_low": 0.0499485241935484,
+    "trust_end": 0.8822456772549219,
+    "older_to_adult_death_ratio": 4.3442955340427485,
+    "rejected_actions": 0.0,
+    "expenditure": 172.40000000000003
+   }
+  },
+  "C_limited_capacity": {
+   "Baseline (neutral rule)": {
+    "deaths": 1860.5,
+    "attack_rate": 0.8456504285714285,
+    "overload_days_any_city": 82.2,
+    "peak_occupancy_pct": 214.85883125410373,
+    "economic_activity_retained": 0.9205555113927291,
+    "income_loss_low": 0.11122228405017923,
+    "trust_end": 0.5932957776778953,
+    "older_to_adult_death_ratio": 3.594845442693367,
+    "rejected_actions": 0.0,
+    "expenditure": 158.34999999999997
+   },
+   "Do nothing": {
+    "deaths": 2861.75,
+    "attack_rate": 1.0008266428571426,
+    "overload_days_any_city": 79.4,
+    "peak_occupancy_pct": 310.4990151017728,
+    "economic_activity_retained": 0.9566641921402969,
+    "income_loss_low": 0.060670131003584274,
+    "trust_end": 0.34424342466982094,
+    "older_to_adult_death_ratio": 4.160256529964807,
+    "rejected_actions": 0.0,
+    "expenditure": 0.0
+   },
+   "Early proportionate": {
+    "deaths": 1254.3,
+    "attack_rate": 0.8205743571428572,
+    "overload_days_any_city": 32.45,
+    "peak_occupancy_pct": 263.887065003283,
+    "economic_activity_retained": 0.9336950980542754,
+    "income_loss_low": 0.05940295541218639,
+    "trust_end": 0.811098488998832,
+    "older_to_adult_death_ratio": 3.0070756748070666,
+    "rejected_actions": 30.0,
+    "expenditure": 648.8999999999999
+   },
+   "Strict lockdown": {
+    "deaths": 2312.5,
+    "attack_rate": 0.9175287857142858,
+    "overload_days_any_city": 75.3,
+    "peak_occupancy_pct": 255.71240971766252,
+    "economic_activity_retained": 0.9090963024833588,
+    "income_loss_low": 0.1272651765232975,
+    "trust_end": 0.5463707769465473,
+    "older_to_adult_death_ratio": 3.8446717255609917,
+    "rejected_actions": 0.0,
+    "expenditure": 172.3
+   },
+   "Economy first": {
+    "deaths": 2526.0,
+    "attack_rate": 1.0012823571428575,
+    "overload_days_any_city": 77.1,
+    "peak_occupancy_pct": 228.48179762165313,
+    "economic_activity_retained": 0.9572981033026113,
+    "income_loss_low": 0.059782655376344106,
+    "trust_end": 0.7676882252617089,
+    "older_to_adult_death_ratio": 4.081027631758563,
+    "rejected_actions": 0.0,
+    "expenditure": 204.73999999999995
+   }
+  },
+  "D_economic_pressure": {
+   "Baseline (neutral rule)": {
+    "deaths": 1368.6,
+    "attack_rate": 0.8794818571428571,
+    "overload_days_any_city": 49.85,
+    "peak_occupancy_pct": 124.40906106369009,
+    "economic_activity_retained": 0.9308033982334869,
+    "income_loss_low": 0.0968752424731183,
+    "trust_end": 0.7793362452228925,
+    "older_to_adult_death_ratio": 3.796368042135043,
+    "rejected_actions": 0.0,
+    "expenditure": 144.69999999999996
+   },
+   "Do nothing": {
+    "deaths": 1934.55,
+    "attack_rate": 1.0012764285714284,
+    "overload_days_any_city": 57.4,
+    "peak_occupancy_pct": 154.18253447143792,
+    "economic_activity_retained": 0.9627665451868918,
+    "income_loss_low": 0.052126836738351265,
+    "trust_end": 0.42760434391119084,
+    "older_to_adult_death_ratio": 4.1246434471462425,
+    "rejected_actions": 0.0,
+    "expenditure": 0.0
+   },
+   "Early proportionate": {
+    "deaths": 838.2,
+    "attack_rate": 0.8206610714285713,
+    "overload_days_any_city": 22.85,
+    "peak_occupancy_pct": 133.4668417596848,
+    "economic_activity_retained": 0.9111552259344597,
+    "income_loss_low": 0.07186044304659499,
+    "trust_end": 0.848452787558514,
+    "older_to_adult_death_ratio": 2.8656953610854474,
+    "rejected_actions": 29.0,
+    "expenditure": 648.8999999999999
+   },
+   "Strict lockdown": {
+    "deaths": 1458.85,
+    "attack_rate": 0.9158597142857143,
+    "overload_days_any_city": 56.05,
+    "peak_occupancy_pct": 127.85620485883126,
+    "economic_activity_retained": 0.8841102098054275,
+    "income_loss_low": 0.16224570627240142,
+    "trust_end": 0.6209386625847159,
+    "older_to_adult_death_ratio": 3.8275648168478176,
+    "rejected_actions": 0.0,
+    "expenditure": 172.3
+   },
+   "Economy first": {
+    "deaths": 1721.45,
+    "attack_rate": 1.0011343571428575,
+    "overload_days_any_city": 55.6,
+    "peak_occupancy_pct": 148.1533766202184,
+    "economic_activity_retained": 0.9632632932667688,
+    "income_loss_low": 0.051431389426523325,
+    "trust_end": 0.8490069642162921,
+    "older_to_adult_death_ratio": 4.05182339097735,
+    "rejected_actions": 0.0,
+    "expenditure": 144.67999999999998
+   }
+  },
+  "E_misinformation": {
+   "Baseline (neutral rule)": {
+    "deaths": 1632.45,
+    "attack_rate": 0.9438654285714287,
+    "overload_days_any_city": 54.7,
+    "peak_occupancy_pct": 137.655942219304,
+    "economic_activity_retained": 0.9417663000512032,
+    "income_loss_low": 0.08152717992831542,
+    "trust_end": 0.16346614263537212,
+    "older_to_adult_death_ratio": 3.944667391724695,
+    "rejected_actions": 0.0,
+    "expenditure": 144.69999999999996
+   },
+   "Do nothing": {
+    "deaths": 1934.55,
+    "attack_rate": 1.0012764285714284,
+    "overload_days_any_city": 57.4,
+    "peak_occupancy_pct": 154.18253447143792,
+    "economic_activity_retained": 0.9627665451868918,
+    "income_loss_low": 0.052126836738351265,
+    "trust_end": 0.0698496083960481,
+    "older_to_adult_death_ratio": 4.1246434471462425,
+    "rejected_actions": 0.0,
+    "expenditure": 0.0
+   },
+   "Early proportionate": {
+    "deaths": 841.05,
+    "attack_rate": 0.8369986428571428,
+    "overload_days_any_city": 24.55,
+    "peak_occupancy_pct": 119.86539724228496,
+    "economic_activity_retained": 0.9351477544802866,
+    "income_loss_low": 0.05632386017921147,
+    "trust_end": 0.7363196940351517,
+    "older_to_adult_death_ratio": 2.8325659622618953,
+    "rejected_actions": 29.0,
+    "expenditure": 648.8999999999999
+   },
+   "Strict lockdown": {
+    "deaths": 1689.75,
+    "attack_rate": 0.9591628571428574,
+    "overload_days_any_city": 57.3,
+    "peak_occupancy_pct": 136.10308601444518,
+    "economic_activity_retained": 0.9130600229134664,
+    "income_loss_low": 0.12171596792114696,
+    "trust_end": 0.1131732902267953,
+    "older_to_adult_death_ratio": 4.012295624049482,
+    "rejected_actions": 0.0,
+    "expenditure": 172.3
+   },
+   "Economy first": {
+    "deaths": 1721.45,
+    "attack_rate": 1.0011343571428575,
+    "overload_days_any_city": 55.6,
+    "peak_occupancy_pct": 148.1533766202184,
+    "economic_activity_retained": 0.9632632932667688,
+    "income_loss_low": 0.051431389426523325,
+    "trust_end": 0.18176733120830363,
+    "older_to_adult_death_ratio": 4.05182339097735,
+    "rejected_actions": 0.0,
+    "expenditure": 144.67999999999998
+   }
+  },
+  "F_conflicting_evidence": {
+   "Baseline (neutral rule)": {
+    "deaths": 1385.45,
+    "attack_rate": 0.8793844285714286,
+    "overload_days_any_city": 52.6,
+    "peak_occupancy_pct": 125.05252790544978,
+    "economic_activity_retained": 0.94378845750128,
+    "income_loss_low": 0.07869615949820788,
+    "trust_end": 0.768510475040544,
+    "older_to_adult_death_ratio": 3.7260321961767033,
+    "rejected_actions": 0.0,
+    "expenditure": 144.69999999999996
+   },
+   "Do nothing": {
+    "deaths": 1963.25,
+    "attack_rate": 1.0008689285714287,
+    "overload_days_any_city": 55.85,
+    "peak_occupancy_pct": 156.08010505581092,
+    "economic_activity_retained": 0.9631949156426014,
+    "income_loss_low": 0.05152711810035845,
+    "trust_end": 0.4338811927858138,
+    "older_to_adult_death_ratio": 4.232590967302252,
+    "rejected_actions": 0.0,
+    "expenditure": 0.0
+   },
+   "Early proportionate": {
+    "deaths": 831.05,
+    "attack_rate": 0.8227391428571428,
+    "overload_days_any_city": 23.2,
+    "peak_occupancy_pct": 133.00065659881813,
+    "economic_activity_retained": 0.9362045014080902,
+    "income_loss_low": 0.05585666157706094,
+    "trust_end": 0.8470753330487932,
+    "older_to_adult_death_ratio": 2.8938256048118327,
+    "rejected_actions": 29.0,
+    "expenditure": 648.8999999999999
+   },
+   "Strict lockdown": {
+    "deaths": 1443.9,
+    "attack_rate": 0.9158982857142858,
+    "overload_days_any_city": 55.2,
+    "peak_occupancy_pct": 126.25410374261325,
+    "economic_activity_retained": 0.9147015033282129,
+    "income_loss_low": 0.1194178953405018,
+    "trust_end": 0.6235316581817427,
+    "older_to_adult_death_ratio": 3.856903300539456,
+    "rejected_actions": 0.0,
+    "expenditure": 172.3
+   },
+   "Economy first": {
+    "deaths": 1718.55,
+    "attack_rate": 1.0010269285714286,
+    "overload_days_any_city": 52.55,
+    "peak_occupancy_pct": 144.88400087546503,
+    "economic_activity_retained": 0.9641072140296979,
+    "income_loss_low": 0.05024990035842295,
+    "trust_end": 0.861034777950455,
+    "older_to_adult_death_ratio": 4.193058589062682,
+    "rejected_actions": 0.0,
+    "expenditure": 149.3
+   }
+  },
+  "G_combined_crisis": {
+   "Baseline (neutral rule)": {
+    "deaths": 2413.9,
+    "attack_rate": 0.9793764999999999,
+    "overload_days_any_city": 67.2,
+    "peak_occupancy_pct": 243.54344495513243,
+    "economic_activity_retained": 0.9029440679723504,
+    "income_loss_low": 0.1358783048387097,
+    "trust_end": 0.17628489615694903,
+    "older_to_adult_death_ratio": 4.016173574235656,
+    "rejected_actions": 0.0,
+    "expenditure": 157.99999999999994
+   },
+   "Do nothing": {
+    "deaths": 2937.9,
+    "attack_rate": 1.0459382142857143,
+    "overload_days_any_city": 69.75,
+    "peak_occupancy_pct": 288.81593346465314,
+    "economic_activity_retained": 0.9585327834101381,
+    "income_loss_low": 0.058054103225806473,
+    "trust_end": 0.07401936026976759,
+    "older_to_adult_death_ratio": 4.308852030594201,
+    "rejected_actions": 0.0,
+    "expenditure": 0.0
+   },
+   "Early proportionate": {
+    "deaths": 1378.75,
+    "attack_rate": 0.9364232142857141,
+    "overload_days_any_city": 50.95,
+    "peak_occupancy_pct": 169.2219304005253,
+    "economic_activity_retained": 0.8954866868919611,
+    "income_loss_low": 0.09236192641577061,
+    "trust_end": 0.7673418419215661,
+    "older_to_adult_death_ratio": 3.3318152566725496,
+    "rejected_actions": 33.25,
+    "expenditure": 648.8999999999999
+   },
+   "Strict lockdown": {
+    "deaths": 2498.05,
+    "attack_rate": 1.0107410714285716,
+    "overload_days_any_city": 77.4,
+    "peak_occupancy_pct": 232.64390457430508,
+    "economic_activity_retained": 0.8810730161290323,
+    "income_loss_low": 0.16649777741935484,
+    "trust_end": 0.12921146891244453,
+    "older_to_adult_death_ratio": 4.221037454457603,
+    "rejected_actions": 0.0,
+    "expenditure": 172.3
+   },
+   "Economy first": {
+    "deaths": 2586.5,
+    "attack_rate": 1.0452875714285716,
+    "overload_days_any_city": 62.4,
+    "peak_occupancy_pct": 215.90347186757782,
+    "economic_activity_retained": 0.9605923467741935,
+    "income_loss_low": 0.05517071451612905,
+    "trust_end": 0.2209078201510568,
+    "older_to_adult_death_ratio": 4.278478514082416,
+    "rejected_actions": 0.0,
+    "expenditure": 203.2
+   }
+  }
+ },
+ "vs_baseline": {
+  "A_early_warning": {
+   "Do nothing": {
+    "deaths": {
+     "mean_diff": 546.3,
+     "ci": [
+      511.6475,
+      579.25
+     ],
+     "effect_size": 6.961095356421184,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.006964213389656898,
+     "ci": [
+      0.00389333151561697,
+      0.00976732615847411
+     ],
+     "effect_size": 1.012509261642389,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.44896302683611217,
+     "ci": [
+      -0.4765428463206027,
+      -0.4201852568182202
+     ],
+     "effect_size": -6.79251793288944,
+     "n": 20
+    }
+   },
+   "Early proportionate": {
+    "deaths": {
+     "mean_diff": -910.25,
+     "ci": [
+      -933.55,
+      -887.34875
+     ],
+     "effect_size": -16.64574035460002,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.009492618919610802,
+     "ci": [
+      0.006718132411674333,
+      0.01235291798515098
+     ],
+     "effect_size": 1.436794061989628,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.11883836954384867,
+     "ci": [
+      0.10109200381321774,
+      0.13701737547240356
+     ],
+     "effect_size": 2.869462095190536,
+     "n": 20
+    }
+   },
+   "Strict lockdown": {
+    "deaths": {
+     "mean_diff": -366.15,
+     "ci": [
+      -409.30125000000004,
+      -327.25
+     ],
+     "effect_size": -3.809989864855864,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.025211235919098844,
+     "ci": [
+      -0.027645456061187904,
+      -0.023099270782130088
+     ],
+     "effect_size": -4.625145555984336,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.09494450629725085,
+     "ci": [
+      -0.11112710728127027,
+      -0.07855501503421501
+     ],
+     "effect_size": -2.4150403610689035,
+     "n": 20
+    }
+   },
+   "Economy first": {
+    "deaths": {
+     "mean_diff": 353.8,
+     "ci": [
+      318.29875,
+      387.2025
+     ],
+     "effect_size": 4.440296852589127,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.008731236303123358,
+     "ci": [
+      0.005869141068228349,
+      0.011510895561315885
+     ],
+     "effect_size": 1.3118519937404844,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.009872584031024628,
+     "ci": [
+      -0.03867917700877434,
+      0.02281820022496581
+     ],
+     "effect_size": -0.13774436026291556,
+     "n": 20
+    }
+   }
+  },
+  "B_rapid_growth": {
+   "Do nothing": {
+    "deaths": {
+     "mean_diff": 587.35,
+     "ci": [
+      552.59625,
+      624.9
+     ],
+     "effect_size": 6.842700253168828,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.019954741807475695,
+     "ci": [
+      0.019502168826804913,
+      0.020419394130824362
+     ],
+     "effect_size": 18.673366371154614,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.3406934551016879,
+     "ci": [
+      -0.34673568000224086,
+      -0.33449574186425207
+     ],
+     "effect_size": -23.970516023089125,
+     "n": 20
+    }
+   },
+   "Early proportionate": {
+    "deaths": {
+     "mean_diff": -276.2,
+     "ci": [
+      -362.95375,
+      -204.5
+     ],
+     "effect_size": -1.5044219425111445,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.02954022644649258,
+     "ci": [
+      -0.030919560896697392,
+      -0.027623309030977976
+     ],
+     "effect_size": -7.70000758366689,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.046325527600779695,
+     "ci": [
+      -0.056732362090702614,
+      -0.033506374286036214
+     ],
+     "effect_size": -1.6982389683235886,
+     "n": 20
+    }
+   },
+   "Strict lockdown": {
+    "deaths": {
+     "mean_diff": -21.1,
+     "ci": [
+      -47.75,
+      4.951250000000004
+     ],
+     "effect_size": -0.33463498297549277,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.030818160010240618,
+     "ci": [
+      -0.03150250173451097,
+      -0.030172488344854035
+     ],
+     "effect_size": -19.869374956971306,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.1668849740112688,
+     "ci": [
+      -0.1762214221935794,
+      -0.158365178673138
+     ],
+     "effect_size": -8.044436405004017,
+     "n": 20
+    }
+   },
+   "Economy first": {
+    "deaths": {
+     "mean_diff": 212.6,
+     "ci": [
+      179.34875,
+      249.70375
+     ],
+     "effect_size": 2.604402564913282,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.021403102534562214,
+     "ci": [
+      0.02090618320532508,
+      0.021892562631208395
+     ],
+     "effect_size": 19.01100511737012,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.09344593895819735,
+     "ci": [
+      0.08671460591629869,
+      0.10007759871651653
+     ],
+     "effect_size": 6.134660106856798,
+     "n": 20
+    }
+   }
+  },
+  "C_limited_capacity": {
+   "Do nothing": {
+    "deaths": {
+     "mean_diff": 1001.25,
+     "ci": [
+      954.8,
+      1044.30375
+     ],
+     "effect_size": 9.623757648610447,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.0361086807475678,
+     "ci": [
+      0.033663205949180715,
+      0.0384859274097542
+     ],
+     "effect_size": 6.385116848691557,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.24905235300807443,
+     "ci": [
+      -0.2785661969696125,
+      -0.21997396359830174
+     ],
+     "effect_size": -3.5908572445199294,
+     "n": 20
+    }
+   },
+   "Early proportionate": {
+    "deaths": {
+     "mean_diff": -606.2,
+     "ci": [
+      -661.35125,
+      -557.09875
+     ],
+     "effect_size": -5.020085884190055,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.0131395866615464,
+     "ci": [
+      0.011088114308115854,
+      0.015140514733742984
+     ],
+     "effect_size": 2.837987897387175,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.21780271132093648,
+     "ci": [
+      0.19733836600856405,
+      0.2395785710325148
+     ],
+     "effect_size": 4.380321830705267,
+     "n": 20
+    }
+   },
+   "Strict lockdown": {
+    "deaths": {
+     "mean_diff": 452.0,
+     "ci": [
+      391.69,
+      503.55125000000004
+     ],
+     "effect_size": 3.5469861909919125,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.011459208909370206,
+     "ci": [
+      -0.013711139413722574,
+      -0.00929923520865337
+     ],
+     "effect_size": -2.234508535462266,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.046925000731348164,
+     "ci": [
+      -0.07150780471118398,
+      -0.022494838176249733
+     ],
+     "effect_size": -0.8337529987151893,
+     "n": 20
+    }
+   },
+   "Economy first": {
+    "deaths": {
+     "mean_diff": 665.5,
+     "ci": [
+      618.0487499999999,
+      708.5
+     ],
+     "effect_size": 6.554704142921908,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.0367425919098822,
+     "ci": [
+      0.0343363497695852,
+      0.039054855606758795
+     ],
+     "effect_size": 6.677100405743806,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.17439244758381356,
+     "ci": [
+      0.1459347349212178,
+      0.2014168629541606
+     ],
+     "effect_size": 2.6649066690548397,
+     "n": 20
+    }
+   }
+  },
+  "D_economic_pressure": {
+   "Do nothing": {
+    "deaths": {
+     "mean_diff": 565.95,
+     "ci": [
+      543.09875,
+      589.75125
+     ],
+     "effect_size": 10.240944034903206,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.03196314695340498,
+     "ci": [
+      0.030532805187531983,
+      0.03342758311251916
+     ],
+     "effect_size": 9.471598383948981,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.3517319013117018,
+     "ci": [
+      -0.3717457037434256,
+      -0.33088988246421075
+     ],
+     "effect_size": -7.467010514324129,
+     "n": 20
+    }
+   },
+   "Early proportionate": {
+    "deaths": {
+     "mean_diff": -530.4,
+     "ci": [
+      -559.9,
+      -502.24875
+     ],
+     "effect_size": -7.700683035341709,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.019648172299027166,
+     "ci": [
+      -0.02069465242575528,
+      -0.01838582948348697
+     ],
+     "effect_size": -7.215768661407562,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.06911654233562153,
+     "ci": [
+      0.05512984467761851,
+      0.08677161431788685
+     ],
+     "effect_size": 1.8337595320580227,
+     "n": 20
+    }
+   },
+   "Strict lockdown": {
+    "deaths": {
+     "mean_diff": 90.25,
+     "ci": [
+      69.8,
+      109.3525
+     ],
+     "effect_size": 1.9203786346096203,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.04669318842805939,
+     "ci": [
+      -0.04763760886776751,
+      -0.04555701501536093
+     ],
+     "effect_size": -18.782369219454623,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.15839758263817674,
+     "ci": [
+      -0.17159202838541698,
+      -0.14237877444357788
+     ],
+     "effect_size": -4.567772314525979,
+     "n": 20
+    }
+   },
+   "Economy first": {
+    "deaths": {
+     "mean_diff": 352.85,
+     "ci": [
+      320.54875,
+      384.05
+     ],
+     "effect_size": 4.700807540734586,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.03245989503328213,
+     "ci": [
+      0.03094403032514084,
+      0.033917810323860674
+     ],
+     "effect_size": 9.331935111816284,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.06967071899339974,
+     "ci": [
+      0.048562847843208475,
+      0.09011069394098457
+     ],
+     "effect_size": 1.435145300250953,
+     "n": 20
+    }
+   }
+  },
+  "E_misinformation": {
+   "Do nothing": {
+    "deaths": {
+     "mean_diff": 302.1,
+     "ci": [
+      272.9,
+      330.8
+     ],
+     "effect_size": 4.396554111333284,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.021000245135688635,
+     "ci": [
+      0.019461935413466334,
+      0.022533848019073207
+     ],
+     "effect_size": 5.839145766255076,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.09361653423932405,
+     "ci": [
+      -0.10051955772546689,
+      -0.0822997203813164
+     ],
+     "effect_size": -4.046657126259156,
+     "n": 20
+    }
+   },
+   "Early proportionate": {
+    "deaths": {
+     "mean_diff": -791.4,
+     "ci": [
+      -816.2012500000001,
+      -769.6
+     ],
+     "effect_size": -14.70115944431123,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.006618545570916523,
+     "ci": [
+      -0.0077005018817204165,
+      -0.0053062662954428885
+     ],
+     "effect_size": -2.3387370376539285,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.5728535513997799,
+     "ci": [
+      0.5641574870877646,
+      0.5843547989675668
+     ],
+     "effect_size": 24.074977409247147,
+     "n": 20
+    }
+   },
+   "Strict lockdown": {
+    "deaths": {
+     "mean_diff": 57.3,
+     "ci": [
+      30.24875,
+      85.60125
+     ],
+     "effect_size": 0.8891404211208186,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.028706277137736803,
+     "ci": [
+      -0.029663972907066044,
+      -0.027722400128008213
+     ],
+     "effect_size": -12.503337729291736,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.05029285240857685,
+     "ci": [
+      -0.0606640958250009,
+      -0.040665993950478416
+     ],
+     "effect_size": -2.172905734169928,
+     "n": 20
+    }
+   },
+   "Economy first": {
+    "deaths": {
+     "mean_diff": 89.0,
+     "ci": [
+      57.79875,
+      118.20125
+     ],
+     "effect_size": 1.2988822265510944,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.021496993215565786,
+     "ci": [
+      0.019926795878136176,
+      0.02303430245455709
+     ],
+     "effect_size": 5.923881388265928,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.01830118857293151,
+     "ci": [
+      0.003376151250677875,
+      0.03320715018951927
+     ],
+     "effect_size": 0.5360699225830374,
+     "n": 20
+    }
+   }
+  },
+  "F_conflicting_evidence": {
+   "Do nothing": {
+    "deaths": {
+     "mean_diff": 577.8,
+     "ci": [
+      549.89875,
+      606.55125
+     ],
+     "effect_size": 8.751204807648573,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.019406458141321026,
+     "ci": [
+      0.017843591407450062,
+      0.021409492402713795
+     ],
+     "effect_size": 4.660068986710144,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.3346292822547305,
+     "ci": [
+      -0.3566996273077459,
+      -0.3068616759735572
+     ],
+     "effect_size": -5.723030047807155,
+     "n": 20
+    }
+   },
+   "Early proportionate": {
+    "deaths": {
+     "mean_diff": -554.4,
+     "ci": [
+      -577.055,
+      -530.99875
+     ],
+     "effect_size": -10.241483953160715,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.007583956093190009,
+     "ci": [
+      -0.009009171204557107,
+      -0.005668771386968837
+     ],
+     "effect_size": -1.9284932092387153,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.07856485800824908,
+     "ci": [
+      0.05879316220660675,
+      0.10512990389529879
+     ],
+     "effect_size": 1.435561214907641,
+     "n": 20
+    }
+   },
+   "Strict lockdown": {
+    "deaths": {
+     "mean_diff": 58.45,
+     "ci": [
+      27.75,
+      92.45125
+     ],
+     "effect_size": 0.7739499755147369,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.029086954173067107,
+     "ci": [
+      -0.0305350460541475,
+      -0.0272309705197133
+     ],
+     "effect_size": -7.335800011512581,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.14497881685880143,
+     "ci": [
+      -0.16528834698201675,
+      -0.1188795291439815
+     ],
+     "effect_size": -2.615395550389899,
+     "n": 20
+    }
+   },
+   "Economy first": {
+    "deaths": {
+     "mean_diff": 333.1,
+     "ci": [
+      290.5475,
+      373.50125
+     ],
+     "effect_size": 3.4331296656109895,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.020318756528417803,
+     "ci": [
+      0.0188118541922683,
+      0.022010313418458792
+     ],
+     "effect_size": 5.363255538722592,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.09252430290991102,
+     "ci": [
+      0.07144355430420829,
+      0.11619983772681064
+     ],
+     "effect_size": 1.7482045024786217,
+     "n": 20
+    }
+   }
+  },
+  "G_combined_crisis": {
+   "Do nothing": {
+    "deaths": {
+     "mean_diff": 524.0,
+     "ci": [
+      491.45,
+      556.6525
+     ],
+     "effect_size": 6.7639209803171925,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.05558871543778798,
+     "ci": [
+      0.053451432248463895,
+      0.05727613372695849
+     ],
+     "effect_size": 12.2697556705132,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.10226553588718149,
+     "ci": [
+      -0.10764743750273062,
+      -0.09837156482525407
+     ],
+     "effect_size": -9.143400053964937,
+     "n": 20
+    }
+   },
+   "Early proportionate": {
+    "deaths": {
+     "mean_diff": -1035.15,
+     "ci": [
+      -1100.60125,
+      -939.4462500000001
+     ],
+     "effect_size": -5.483032177225245,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.007457381080389125,
+     "ci": [
+      -0.00970430207053246,
+      -0.005455174263952868
+     ],
+     "effect_size": -1.5134771507195266,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.5910569457646171,
+     "ci": [
+      0.5706822817402889,
+      0.6056752216629749
+     ],
+     "effect_size": 14.535346334209308,
+     "n": 20
+    }
+   },
+   "Strict lockdown": {
+    "deaths": {
+     "mean_diff": 84.15,
+     "ci": [
+      54.24625,
+      112.55
+     ],
+     "effect_size": 1.2051201787177452,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": -0.02187105184331801,
+     "ci": [
+      -0.02395300711085508,
+      -0.020185136287122454
+     ],
+     "effect_size": -4.85300764246581,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": -0.047073427244504536,
+     "ci": [
+      -0.05574265548349529,
+      -0.039037544358037066
+     ],
+     "effect_size": -2.4617798353229468,
+     "n": 20
+    }
+   },
+   "Economy first": {
+    "deaths": {
+     "mean_diff": 172.6,
+     "ci": [
+      138.4475,
+      206.35125
+     ],
+     "effect_size": 2.125128623062678,
+     "n": 20
+    },
+    "economic_activity_retained": {
+     "mean_diff": 0.057648278801843277,
+     "ci": [
+      0.0555632589189708,
+      0.05930532513760873
+     ],
+     "effect_size": 12.878168998906673,
+     "n": 20
+    },
+    "trust_end": {
+     "mean_diff": 0.044622923994107735,
+     "ci": [
+      0.03888348134043841,
+      0.04919183046111516
+     ],
+     "effect_size": 3.6059240692186814,
+     "n": 20
+    }
+   }
+  }
+ }
+}
