@@ -1,0 +1,17 @@
+{
+ "A_early_warning": {
+  "runs_out_of_money": 0,
+  "of": 20,
+  "median_day": null
+ },
+ "C_limited_capacity": {
+  "runs_out_of_money": 0,
+  "of": 20,
+  "median_day": null
+ },
+ "G_combined_crisis": {
+  "runs_out_of_money": 0,
+  "of": 20,
+  "median_day": null
+ }
+}

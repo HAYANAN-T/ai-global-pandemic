@@ -1,0 +1,6 @@
+tests/test_world.py::test_zero_population_city_does_not_crash
+  /home/claude/pan/project/experiment_runner.py:32: RuntimeWarning: invalid value encountered in divide
+    city_infectious=(pop.X["I"].sum(1) / world.N.sum(1)).tolist()))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+13 passed, 1 warning in 0.45s

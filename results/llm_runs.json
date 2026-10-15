@@ -1,0 +1,9 @@
+{
+ "status": {
+  "openai": "NOT RUN: OPENAI_MODEL is not set (set an explicit model identifier)",
+  "anthropic": "NOT RUN: ANTHROPIC_MODEL is not set (set an explicit model identifier)",
+  "gemini": "NOT RUN: GEMINI_MODEL is not set (set an explicit model identifier)"
+ },
+ "runs": [],
+ "decision_logs": {}
+}
